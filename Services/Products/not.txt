@@ -1,0 +1,1 @@
+﻿Products içerisindeki klasör yapısı kategorı bazlı değil,  fonksiyon bazlı
