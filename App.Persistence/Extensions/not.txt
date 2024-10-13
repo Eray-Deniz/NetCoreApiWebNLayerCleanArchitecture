@@ -1,0 +1,2 @@
+﻿extension eklemeden önce projeye sağ click => Edit Project File => <ItemGroup> altına aşağıdaki satırı ekledik
+<FrameworkReference Include="Microsoft.AspNetCore.App" />
