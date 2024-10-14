@@ -38,7 +38,7 @@ namespace App.Persistence.Extensions
                 var connectionStrings = configuration.GetSection(ConnectionStringOption.Key).Get<ConnectionStringOption>();
 
                 //connectionStrings te uyarı veriyordu. bunun null olmayacağını belirtmet için connectionStrings! şeklinde yazdık.
-                options.UseSqlServer(connectionStrings!.SqlServer_Express,
+                options.UseSqlServer(connectionStrings!.SqlServer,
                     sqlServerOptionsAction =>
                     {
                         sqlServerOptionsAction.MigrationsAssembly(typeof(PersistentAssembly).Assembly.FullName);
